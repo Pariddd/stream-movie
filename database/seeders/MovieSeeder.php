@@ -99,7 +99,7 @@ class MovieSeeder extends Seeder
                 'director' => $movieData['director'],
                 'stars' => $movieData['stars'],
                 'release_date' => $movieData['release_date'],
-                'hls_url' => 'https://www.youtube.com/watch?v=Jx7ktt3yMj4&list=RDJx7ktt3yMj4&start_radio=1',
+                'video_url' => 'https://www.youtube.com/watch?v=Jx7ktt3yMj4&list=RDJx7ktt3yMj4&start_radio=1',
                 'duration' => $movieData['duration'],
             ]);
 
