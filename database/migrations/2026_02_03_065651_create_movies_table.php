@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('director')->nullable();
             $table->string('stars')->nullable();
             $table->date('release_date')->nullable();
-            $table->string('hls_url');
+            $table->string('video_url');
             $table->integer('duration')->nullable();
             $table->timestamps();
         });

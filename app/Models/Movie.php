@@ -17,7 +17,7 @@ class Movie extends Model
         'director',
         'stars',
         'release_date',
-        'hls_url',
+        'video_url',
         'duration',
     ];
 
